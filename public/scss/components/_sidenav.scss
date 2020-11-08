@@ -1,0 +1,25 @@
+.sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background: #fff;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-top: 2.5em;
+  width: 0;
+  transition: 0.5s ease-in-out;
+  box-sizing: content-box;
+
+  .close-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 99999;
+  }
+
+  .sidenav-wrapper {
+    width: 70vw;
+  }
+}
