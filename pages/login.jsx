@@ -103,7 +103,7 @@ function Login() {
                 <a className="btn btn-outline-dark mr-2">Sign up</a>
               </Link>
 
-              <Link href="/login">
+              <Link href="/reset">
                 <a className="btn btn-outline-dark">Recover password</a>
               </Link>
             </p>

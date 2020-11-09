@@ -16,6 +16,10 @@ const UserSchema = new Schema({
     required: [true, "Password is required"],
   },
 
+  t_r_c: {
+    type: String,
+  }, // temporary reset code
+
   date: {
     type: Date,
     default: Date.now(),
